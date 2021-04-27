@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description=" content="The Bulldog Barbershop is located in the
+    downtown area of Dublin. We offer men's and women's haircuts and beauty
+    treatments, straight razor shaves, and facials for men">
+    <meta name="keywords" content="Barbershop, haircut, trimming, Fashion">
+
+<!-- NOTE: Title/CSS link -->
+    <title>BullDog BarberShop</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+<!-- NOTE: javascript -->
+<script>
+  function change(state){
+    var toolspicture = document.getElementById('toolpic')
+    toolspicture.src = "images/product" + state + ".jpg";
+    }
+    function change2(state){
+      var productpicture = document.getElementById('productpic')
+      productpicture.src = "images/product" + state + ".jpg";
+    }
+    function change3(state){
+      var servicepicture = document.getElementById('servicepic')
+      servicepicture.src = "images/service" + state + ".jpg";
+    }
+</script>
+  </head>
+
+
+<!-- NOTE: Header/logo -->
+  <body>
+      <header>
+        <table class="center">
+          <tr>
+            <th><img src="images/bsicon.gif" height="250" width="250" alt="bulldog picture" ></th>
+            <th></th>
+            <th><img src="images/bulldog.jpg" height="200" width="200" alt="bulldog picture"></th>
+            <th></th>
+            <th><img src="images/bsicon.gif" height="250" width="250" alt="bulldog picture" ></th>
+
+          </tr>
+        </table>
+    </header>
+
+<!-- NOTE: NavBar -->
+    <div id="wrapper">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="haircuts.html">Haircuts</a></li>
+          <li><a href="ourcostumers.html">Our Customers</a></li>
+          <li><a href="ourstaff.html">Our Staff</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="ourstory.html">Our Story</a></li>
+        </ul>
+      </nav>
+      <hr>
+
+<!-- NOTE: Body -->
+    <div id="bodyheadline">
+      <h2>WELCOME &#128153;</h2>
+      <h3>BullDog Barbershop enjoys a reputation for being a neighborhood barbershop offering quality services and products. Our commitment to our customers is to provide a warm, friendly, comfortable atmosphere where they can relax and enjoy a beer or a glass of wine, as well as a clean and respectful environment for the staff to work in.</h3>
+    </div>
+    <hr>
+    <div id="indexpagebgimg" style="background-image: url('images/blackbg.jpg');">
+    <table>
+      <tr>
+        <td>
+          <div class="indexpageitemsdescriptions">
+            <h2>AMAZING BRANDS</h2>
+          </div>
+          <img src="images/product1.jpg" height="580" width="580" alt="Grooming Tools Picture" id='toolpic' onmouseover="change('1')" onmouseout="change('3')"></td>
+        <td>
+          <div class="indexpageitemsdescriptions">
+            <h2>WE USE ONLY THE BEST PRODUCTS</h2>
+          </div>
+          <img src="images/product2.jpg" height="580" width="580" alt="Barber products" id='productpic' onmouseover="change2('2')" onmouseout="change2('4')"></td>
+      </tr>
+      <tr>
+        <td><div class="indexpageitemsdescriptions">
+          <h2>EXPERT BARBER SHOP SERVICES</h2>
+        </div>
+          <img src="images/service1.jpg" height="580" width="580" alt="Service picture" id='servicepic' onmouseover="change3('1')" onmouseout="change3('2')"></td>
+        <td><div id="indexpageservicesinfo">
+          <h3>The BullDog Barbershop has very competitive prices for a complete men's haircut. We're not the cheapest barbershop around, but we have been voted the best men's haircut in Dublin for four years in a row!
+            We offer haircuts starting at €12, trims starting at €10, and shaves starting at €15. We accept cash, and you'll have to pay with a credit card if you need someone to wash your hair for you.
+            The BullDog Barbershop also has a great selection of cologne and aftershave! We carry Dior, Gucci, Guess, Lacoste, and more. If we don't carry your favorite, just ask. We're very familiar with the brands we stock and can order any fragrance you'd like. We even do custom order scents on special request!
+            We carry all of the items currently in stock in the photos above. The other brands of aftershaves and cologne are also available if we don't have the specific scent you want.
+            Hop on in to the BullDog Barbershop and get a new look from the best barbers in town!
+            If you would like to purchase an item from the shop, go to the <b>CONTACT US</b> page and submit a query with your order. No shipping or tax fees! Each barbershop in the BullDog Barbershop franchise is set up to ship out and receive deliveries.</h3>
+        </div>
+           </td>
+      </tr>
+      </table>
+    </div>
+    <div id="bodybottomline">
+      <h3>We offer a friendly, relaxed environment in the heart of Dublin where the best barbers will make sure you look and feel great, no matter how tricky your request may be. We have two unique barbering experiences in the heart of Dublin, Ireland. The first barbershop, located in Dublin 1, offers a range of grooming services, from a classic wet shave to the best-looking beard trim you've ever seen. The second barbering experience, located in Dublin 2, is an award-winning concept from the team behind the BullDog Barbershop. Here you can enjoy delicious pints and whiskey's alongside the very best grooming services. </h3>
+    </div>
+    <hr>
+  </div>
+<!-- NOTE: Footer -->
+<footer>
+      <p>Copyright &copy; 2021 BullDog BarberShop</p>
+    <ul>
+      <li><a href="sitemap.html">Sitemap</a></li>
+    </ul>
+</footer>
+</body>
+</html>

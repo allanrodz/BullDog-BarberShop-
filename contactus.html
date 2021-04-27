@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description=" content="The Bulldog Barbershop ContactForm is the best way you can get in touch with us.">
+
+<!-- NOTE: Title/CSS link -->
+    <title>Contact Us</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+<!-- NOTE: JavaScript -->
+<script>
+  function submitForm(){
+    alert('Query Submitted. thank you!')
+    }
+</script>
+  </head>
+
+
+<!-- NOTE: Header/logo -->
+  <body>
+      <header>
+        <table class="center">
+          <tr>
+            <th><img src="images/bsicon.gif" height="250" width="250" alt="bulldog picture" ></th>
+            <th></th>
+            <th><img src="images/bulldog.jpg" height="200" width="200" alt="bulldog picture"></th>
+            <th></th>
+            <th><img src="images/bsicon.gif" height="250" width="250" alt="bulldog picture" ></th>
+          </tr>
+        </table>
+    </header>
+
+<!-- NOTE: NavBar -->
+<div id="wrapper">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="haircuts.html">Haircuts</a></li>
+      <li><a href="ourcostumers.html">Our Customers</a></li>
+      <li><a href="ourstaff.html">Our Staff</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="ourstory.html">Our Story</a></li>
+    </ul>
+  </nav>
+  <hr>
+
+<!-- NOTE: Body with tables and form  -->
+
+<table class="Form">
+<th>
+<img src="images/contact.gif" alt="" height="800" width="600">
+</th>
+<th>
+<div id="headerform">
+ <span style='font-size:40px;'>&#128221;</span><h2>BullDog Contact Form</h2>
+</div>
+ <table>
+   <form>
+     <tr>
+       <th>Mr./Mrs.</th>
+       <th>Location</th>
+       <th></th>
+     </tr>
+     <td>
+       <label for="name">Name :</label>
+       <input name="Name" id="name" type="text" required>
+     </td>
+     <td>
+       <label for="store">Store :</label>
+       <select name="store" id="store">
+         <option value="south dublin">South Dublin</option>
+         <option value="north dublin">North Dublin</option>
+       </select>
+     </td>
+   </table>
+   <br>
+   <table>
+     <tr>
+       <th>Tell us how we can help</th>
+     </tr>
+     <td>
+       <label for="query">Query :</label>
+       <textarea rows="3" cols="50">
+       </textarea>
+       <tr>
+         <td> <b>We will try to sort it out ASAP<b></td>
+         </tr>
+       </td>
+     </table>
+     <br>
+     <table>
+       <tr>
+         <th>Are we doing a good job?</th>
+       </tr>
+       <td>
+         <label for="ratings">from 1 to 5: </label>
+         <input name="ratings" type="radio">1</input>
+         <input name="ratings" type="radio">2</input>
+         <input name="ratings" type="radio">3</input>
+         <input name="ratings" type="radio">4</input>
+         <input name="ratings" type="radio">5</input>
+         <tr>
+           <td> <b>1-Unsatisfied 5-Very Satistied<b> </td>
+           </tr>
+         </td>
+       </table>
+       <br>
+       <table>
+         <tr>
+           <td>
+             <input type="button" id="button" height="100" width="200" value="Submit Query"
+             onclick="submitForm()">
+           </td>
+         </tr>
+       </table>
+       <hr>
+       <img src="images/findus.png" alt="" height="100" width="100">
+       <div class="contactus">
+         <h2 id='headhowtofindus'>How to find us</h2>
+         <p><b>BullDog BarberShop<br>
+           North Dublin -
+           30 Long Lane,
+           Dublin 1
+           <br>
+           South Dublin -
+           15 Short Lane,
+           Dublin 2</p>
+           <p>Phone: 353-827211111</p>
+           <p>Email: bulldog@barbers.com<b></p>
+           </div>
+         </form>
+       </th>
+     </tr>
+   </table>
+ <hr>
+</div>
+
+<!-- NOTE: Footer -->
+<footer>
+      <p>Copyright &copy; 2021 BullDog BarberShop</p>
+    <ul>
+      <li><a href="sitemap.html">Sitemap</a></li>
+    </ul>
+</footer>
+</body>
+</html>
